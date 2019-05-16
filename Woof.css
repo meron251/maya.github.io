@@ -1,0 +1,13 @@
+h1 {
+  color: purple;
+  background: green;
+}
+
+h1:hover {
+  color: white;
+}
+body {
+  color: green;
+  background: lightblue;
+  <div class="search-text typer" data-state="typing"> Wouldnt you hug this floofer</div>
+}
