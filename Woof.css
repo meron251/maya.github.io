@@ -1,13 +1,32 @@
 h1 {
-  color: purple;
-  background: green;
+  color: white;
+  background: lighgreen;
 }
 
 h1:hover {
-  color: white;
+  color:green;
+  transition: 0.4s;
+}
+body:hover {
+  color: green;
+  transition:0.4s;
+  background: gold;
 }
 body {
-  color: green;
-  background: lightblue;
-  <div class="search-text typer" data-state="typing"> Wouldnt you hug this floofer</div>
+  color: red;
+  background: lightgreen;
+
+}
+img {
+  width: 50%;
+  height: auto;
+}
+div {
+   width: 50%;
+  text-align: center;
+  opacity: 0.7;
+  color: darkgreen;
+  background: gold;
+  border: 2px solid;
+  border-radius: 10%;
 }
