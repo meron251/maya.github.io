@@ -1,6 +1,7 @@
 h1 {
   color: white;
   background: lighgreen;
+
 }
 
 h1:hover {
@@ -14,7 +15,8 @@ body:hover {
 }
 body {
   color: red;
-  background: lightgreen;
+  background-image: src="AA.jpg"
+  font-family: 'Quicksand', sans-serif;
 
 }
 img {
@@ -29,4 +31,52 @@ div {
   background: gold;
   border: 2px solid;
   border-radius: 10%;
+}
+
+.w1 {
+  padding-left: 50px;
+}
+.w1:hover {
+  color:white;
+  transition: 0.4s;
+}
+
+.w2 {
+  padding-left: 60px;
+}
+  .w2:hover {
+    color:white;
+    transition: 0.4s;
+  }
+
+.w3 {
+  padding-left: 70px;
+}
+.w3:hover {
+  color:white;
+  transition: 0.4s;
+}
+
+.w4 {
+  padding-left: 80px;
+}
+.w4:hover {
+  color:white;
+  transition: 0.4s;
+}
+
+.w5 {
+  padding-left: 90px;
+}
+.w5:hover {
+  color:white;
+  transition: 0.4s;
+}
+
+.w6 {
+  padding-left: 50px;
+}
+.w6:hover {
+  color:white;
+  transition: 0.4s;
 }
