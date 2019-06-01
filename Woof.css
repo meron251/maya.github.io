@@ -1,3 +1,10 @@
+html {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Addis_Abeba%2C_Ethiopia.jpg/1920px-Addis_Abeba%2C_Ethiopia.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 h1 {
   color: white;
   background: lighgreen;
@@ -11,11 +18,9 @@ h1:hover {
 body:hover {
   color: green;
   transition:0.4s;
-  background: gold;
 }
 body {
   color: red;
-  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Addis_Abeba%2C_Ethiopia.jpg/1920px-Addis_Abeba%2C_Ethiopia.jpg)
   font-family: 'Quicksand', sans-serif;
   background-size: "cover"
 
