@@ -15,8 +15,9 @@ body:hover {
 }
 body {
   color: red;
-  background-image: src="AA.jpg"
+  background: url (https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Addis_Abeba%2C_Ethiopia.jpg/1920px-Addis_Abeba%2C_Ethiopia.jpg)
   font-family: 'Quicksand', sans-serif;
+  background-size: "cover"
 
 }
 img {
