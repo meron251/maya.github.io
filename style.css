@@ -52,7 +52,7 @@ footer {
   width: 100%;
   position: absolute;
   bottom:0;
-  text-align: center;
+  text-align: -webkit-center; 
   margin-left: auto;
   margin-right: auto;
   color: white;
