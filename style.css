@@ -13,7 +13,24 @@ h1 {
 
 h1:hover {
   color:green;
-  transition: 0.4s;
+  transition: 0.6s;
+}
+
+.page-header {
+  text-align: left;
+  font-style: 4rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  margin: 20px;
+}
+.header-links {
+    text-align: right;
+}
+header li{
+  display: inline block;
+  margin-left: 60px
+
 }
 body:hover {
   color: green;
@@ -22,23 +39,35 @@ body:hover {
 body {
   color: red;
   font-family: 'Quicksand', sans-serif;
-  background-size: "cover"
+  background-size: "cover";
+  text-align: center;
 
 }
 img {
   width: 50%;
   height: auto;
+  image-orientation: left;
+}
+footer {
+  width: 100%;
+  position: absolute;
+  bottom:0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
 }
 div {
    width: 50%;
   text-align: center;
   opacity: 0.7;
   color: darkgreen;
-  background: gold;
-  border: 2px solid;
+  background: white;
+  border: .5px solid;
   border-radius: 10%;
 }
 
+}
 .w1 {
   padding-left: 50px;
 }
@@ -85,4 +114,32 @@ div {
 .w6:hover {
   color:white;
   transition: 0.4s;
+}
+.w6 {
+  padding-left: 50px;
+}
+.pic:hover {
+text-align: center;
+transition: 0.4s;
+width:100px;
+}
+
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
 }
