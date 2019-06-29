@@ -1,10 +1,20 @@
 html {
-  background: url("images/aa.jpg") no-repeat center center fixed;
+  /* background: url("images/aa.jpg") no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+#index{
+  background: url("images/aa.jpg") no-repeat center center fixed;
+}
+#aboutme{
+  background: url("images/lali.jpg") no-repeat center center fixed;
+}
+#links{
+  background: url("images/village.jpg") no-repeat center center fixed;
+}
+
 h1 {
   color: white;
   background: ;
@@ -27,7 +37,7 @@ h1:hover {
   left:0;
   right:0;
   top:0;
-  bottom: auto; 
+  bottom: auto;
 
 }
 .header-links {
@@ -88,7 +98,7 @@ footer {
 div {
    width: 50%;
   text-align: center;
-  opacity: 0.7;
+  opacity: .9;
   color: darkgreen;
   background: white;
   border: .5px solid;
@@ -190,6 +200,10 @@ width:100px;
 
 #cf img.top:hover {
   opacity:0;
+}
+#cf img.bottom {
+  height:299px;
+  width: 225px;
 }
 .allswipe{
   position: absolute;
