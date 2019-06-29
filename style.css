@@ -1,5 +1,5 @@
 html {
-  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Addis_Abeba%2C_Ethiopia.jpg/1920px-Addis_Abeba%2C_Ethiopia.jpg) no-repeat center center fixed;
+  background: url("images/aa.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
