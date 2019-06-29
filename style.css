@@ -7,7 +7,7 @@ html {
 }
 h1 {
   color: white;
-  background: lighgreen;
+  background: ;
 
 }
 
@@ -23,14 +23,34 @@ h1:hover {
   justify-content: space-between;
   padding: 40px;
   margin: 20px;
+  position: fixed;
+  left:0;
+  right:0;
+  top:0;
+  bottom: auto; 
+
 }
 .header-links {
     text-align: right;
+    display: inherit;
+    position: relative;
+    width: auto;
+    padding: 15px;
+    background-color: none;
+    font-size: 15px;
 }
-header li{
-  display: inline block;
-  margin-left: 60px
 
+.link {
+  color: green;
+  text-decoration: none;
+
+}
+
+.link:hover {
+ color: red;
+ transition: .2s;
+ background: yellow;
+ padding: 5px;
 }
 body:hover {
   color: green;
@@ -40,14 +60,22 @@ body {
   color: red;
   font-family: 'Quicksand', sans-serif;
   background-size: "cover";
-  text-align: center;
 
 }
+header{
+  text-align: left;
+
+}
+main{
+  text-align: center;
+}
+
 img {
   width: 50%;
   height: auto;
   image-orientation: left;
 }
+
 footer {
   width: 100%;
   position: absolute;
@@ -69,15 +97,38 @@ div {
 
 }
 .w1 {
-  padding-left: 50px;
+  padding-left: 0px;
+
 }
 .w1:hover {
   color:white;
   transition: 0.4s;
 }
 
-.w2 {
-  padding-left: 60px;
+#first {
+  animation: swipe 2s;
+  top: 75px;
+}
+
+#second {
+  animation: swipe 2s;
+  top: 95px;
+}
+
+#third {
+  animation: swipe 2s;
+  top: 115px;
+}
+#fourth {
+  animation: swipe 2s;
+  top: 135px;
+}
+#fifth {
+  animation: swipe 2s;
+  top: 155px;
+}
+ .w2 {
+  padding-left: 30px;
 }
   .w2:hover {
     color:white;
@@ -85,7 +136,7 @@ div {
   }
 
 .w3 {
-  padding-left: 70px;
+  padding-left: 40px;
 }
 .w3:hover {
   color:white;
@@ -93,7 +144,7 @@ div {
 }
 
 .w4 {
-  padding-left: 80px;
+  padding-left: 50px;
 }
 .w4:hover {
   color:white;
@@ -114,9 +165,6 @@ div {
 .w6:hover {
   color:white;
   transition: 0.4s;
-}
-.w6 {
-  padding-left: 50px;
 }
 .pic:hover {
 text-align: center;
@@ -142,4 +190,23 @@ width:100px;
 
 #cf img.top:hover {
   opacity:0;
+}
+.allswipe{
+  position: absolute;
+  background: none;
+  left: 90px;
+  border: none;
+}
+@keyframes swipe {
+  from {left: -100px;}
+  to { left: 90px;}
+}
+a:hover{
+  font-size:20px
+}
+a{
+  text-decoration: none;
+  color: yellow;
+  transition style: 10s;
+  spacing:
 }
