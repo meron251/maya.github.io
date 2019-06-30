@@ -53,7 +53,6 @@ h1:hover {
 .link {
   color: green;
   text-decoration: none;
-
 }
 
 .link:hover {
@@ -62,20 +61,22 @@ h1:hover {
  background: yellow;
  padding: 5px;
 }
+
 body:hover {
   color: green;
   transition:0.4s;
 }
+
 body {
   color: red;
   font-family: 'Quicksand', sans-serif;
   background-size: "cover";
-
 }
+
 header{
   text-align: left;
-
 }
+
 main{
   text-align: center;
 }
@@ -205,6 +206,7 @@ width:100px;
   height:299px;
   width: 225px;
 }
+
 .allswipe{
   position: absolute;
   background: none;
