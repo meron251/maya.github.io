@@ -6,7 +6,8 @@ html {
   background-size: cover;
 }
 #index{
-  background: url("images/aa.jpg") no-repeat center center fixed;
+  background: url("images/budapest.jpg") no-repeat center center fixed;
+  size:100% 100%; 
 }
 #aboutme{
   background: url("images/lali.jpg") no-repeat center center fixed;
@@ -48,11 +49,15 @@ h1:hover {
     padding: 15px;
     background-color: none;
     font-size: 15px;
+    /* display: inline-block;
+    margin-left: auto; */
 }
 
 .link {
   color: green;
   text-decoration: none;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 .link:hover {
