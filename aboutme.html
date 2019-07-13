@@ -1,57 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
 
-    <title>My Webpage</title>
-    <meta name= "description" content="Home page for MD consulting">
-    <meta name="author" content="Meron D">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
 
-  </head>
-  <body id="aboutme">
-    <!--<header>
+  <title>My Webpage</title>
+  <meta name="description" content="Home page for MD consulting">
+  <meta name="author" content="Meron D">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+</head>
+
+<body id="aboutme">
+  <!--<header>
       <h1>Selam!</h1>
     </header> -->
+  <div id="bg" class="backgroung-wrap">
+    <video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted">
+      <source src="images/nightcars.mp4" type="video/mp4">
+      Video not supported
+  </div>
   <nav>
     <nav class="header-links">
-       <a class="link" href="index.html"> Home</a>
-       <a class="link" href="aboutme.html"> About</a>
-       <a class="link" href="links.html"> Link to Links</a>
-       <a class="link" href="https://www.linkedin.com/in/merondaniel/">Let's Connect</a>
-  </nav>
+      <a class="link" href="index.html"> Home</a>
+      <a class="link" href="aboutme.html"> About</a>
+      <a class="link" href="links.html"> Link to Links</a>
+      <a class="link" href="https://www.linkedin.com/in/merondaniel/">Let's Connect</a>
+    </nav>
 
-  <div id="cf">
+    <div id="cf">
       <img class="bottom" src="images/me.jpg" />
       <img class="top" src="images/alpha.jpg" />
-  </div>
+    </div>
 
     <!-- <ol>
       <li>dogs</li>
       <li>trees</li>
       <li>coffee</li>
     </ol> -->
-  <main>
-    <div class="lcm floater">
-      Social justice is my passion and web development is my language. I have years of expertise
-      in human rights work domestically and globally and thrive on problem solving. Whether you need support
-      in creating your first site for your organization or need asssitance with embracing diveristy and equity
-      within your team, MD consulting can fill in the your service gaps. </br>
-      &emsp;
-      Through MD consulting, we offer variety of services including improvment of organizational effectivness;
-      assitance with implementation; providing solution to given problems and more. Our team is not only dedicated
-      to client satisfaction but has proven to be result oreinted. Our firm is collaboartive and prioritizes your vision and values
-      while working to make your dreams a reality. </br>
-      How can we work together?
-    </div>
-    <amp-img src= "images/village.jpg" alt=village />
+    <main>
+      <div class="grid-container"></div>
+      <div class="lcm floater">
+        Social justice is my passion and web development is my language. I have years of expertise
+        in human rights work domestically and globally and thrive on problem solving. Whether you need support
+        in creating your first site for your organization or need asssitance with embracing diveristy and equity
+        within your team, MD consulting can fill in the your service gaps. </br>
+        &emsp;
+        Through MD consulting, we offer variety of services including improvment of organizational effectivness;
+        assitance with implementation; providing solution to given problems and more. Our team is not only dedicated
+        to client satisfaction but has proven to be result oreinted. Our firm is collaboartive and prioritizes your vision and values
+        while working to make your dreams a reality. </br>
+        How can we work together?
+      </div>
 
-  </main>
+      <amp-img src="images/village.jpg" alt=village />
+
+    </main>
     <footer>
-        <p> Interested in MD consulting? Email md@consulting.org or subscribe for our newsletter below </p>
-        <p> <button>Subscribe</button> </p>
-        Copyright &copy;MD 2019
+      <i class="fab fa-linkedin-in"></i>
+      <i class="fab fa-github"></i>
+      <i class="fas fa-envelope-open-text"></i>
+      <!-- <p> Interested in MD consulting? Email md@consulting.org or subscribe for our newsletter below </p> -->
+      <p> <button>Subscribe</button> </p>
+      Copyright &copy;MD 2019
     </footer>
-  </body>
+</body>
+
 </html>
