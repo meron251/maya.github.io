@@ -31,7 +31,7 @@ html {}
 }
 
 #links {
-  background: url("images/nightmoon.mp4") no-repeat center center fixed;
+  background: url("images/rainy.mp4") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -56,6 +56,16 @@ html {}
   left: 0;
   min-height: 100%;
   min-width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid grid-gap: 0px:
+}
+
+.grid-item {
+  padding: 10px;
 }
 
 h1 {
@@ -172,6 +182,10 @@ i {
   font-size: 40px
 }
 
+l {
+  font-size: 120px
+}
+
 img {
   width: 50%;
   height: auto;
@@ -191,6 +205,8 @@ footer {
   margin-left: auto;
   margin-right: auto;
   color: white;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 div {
@@ -239,13 +255,13 @@ div {
 
 #link {
   animation: swipe 2s;
-  top: 155px;
-  font-size: 80px;
+  top: 150px;
+  font-size: 200px;
   color: white;
 }
 
 #classlinks {
-  top: 20px;
+  top: 100px;
   font-size: 20px;
   visibility: hidden;
 }
@@ -354,4 +370,22 @@ a {
   color: white;
   transition style: 10s;
   spacing:
+}
+
+#icon {
+  color: #71F79F;
+  transition: 2sec;
+  text-align: center
+}
+
+#icon :hover {
+  color: black;
+  transition: 2sec;
+  position: center opacity: .8px;
+}
+
+.icon {
+  color: black;
+  background: none;
+  text-align: none;
 }
