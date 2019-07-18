@@ -158,8 +158,10 @@ main {
 
 .main-index {
   font-size: -webkit-xxx-large;
-  color: rgb(255, 255, 255);
+  color: #faf0e6;
   margin-top: 120px;
+  color: black;
+  background: rgba(256, 256, 256, 0.3);
 }
 
 #links-main {
@@ -204,12 +206,38 @@ footer {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
   color: white;
-  display: flex;
-  justify-content: space-evenly;
 }
 
-div {
+footer a {
+  margin-right: 50px;
+}
+
+/* div {
+  width: 50%;
+  text-align: center;
+  opacity: .9;
+  color: darkgreen;
+  /* background: white; */
+/* border: .5px solid; */
+border-radius: 10%;
+}
+
+div.lcm.floater {
+  background: white;
+}
+
+#lcmFloater {
+  background: white;
+  text-align: center;
+  opacity: .9;
+  width: 50%;
+  border: .5px solid;
+  border-radius: 5%;
+}
+
+.classlinks {
   width: 50%;
   text-align: center;
   opacity: .9;
@@ -258,6 +286,8 @@ div {
   top: 150px;
   font-size: 200px;
   color: white;
+  width: 50%;
+  text-align: center;
 }
 
 #classlinks {
