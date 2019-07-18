@@ -128,8 +128,6 @@ h1:hover {
   background: rgba(86, 99, 96, 0.8);
   border: .5px solid;
   border-radius: 10%;
-  /* padding: 20px; */
-  margin-top: 120px;
 }
 
 body:hover {
@@ -164,9 +162,7 @@ main {
   background: rgba(256, 256, 256, 0.3);
 }
 
-#links-main {
-  padding-top: -205px;
-}
+#links-main {}
 
 .grid-container {
   display: grid;
@@ -357,21 +353,36 @@ div.lcm.floater {
 #cf img {
   position: absolute;
   left: 0;
-  -webkit-transition: opacity 2s ease-in-out;
-  -moz-transition: opacity 2s ease-in-out;
-  -o-transition: opacity 2s ease-in-out;
-  transition: opacity 2s ease-in-out;
-}
-
-#cf img.top:hover {
-  opacity: 0;
-  /* height:280px;
-  width: 230px; */
 }
 
 #cf img.bottom {
   height: 280px;
   width: 230px;
+}
+
+#cf .bottom {
+  opacity: 0;
+  z-index: 1;
+  transform: translateY(-100%) scale(0.1);
+  transition: transform 0.6s,
+    opacity 0.5s;
+}
+
+#cf:hover .bottom {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#cf .top {
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 0.5s,
+    opacity 0.5s;
+}
+
+#cf:hover .top {
+  opacity: 0;
+  transform: translateY(-100%) scale(0.1);
 }
 
 .allswipe {
