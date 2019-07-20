@@ -153,11 +153,11 @@ main {
   text-align: center;
   /* display: inline-block;
   padding: 50px;  */
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .main-index {
-  font-size: -webkit-xxx-large;
+  font-size: 35px;
   color: #faf0e6;
   margin-top: 120px;
   color: black;
@@ -233,6 +233,7 @@ div.lcm.floater {
   width: 50%;
   border: .5px solid;
   border-radius: 5%;
+  line-height: 1.4;
 }
 
 .classlinks {
@@ -358,8 +359,9 @@ div.lcm.floater {
 }
 
 #cf img.bottom {
-  height: 280px;
-  width: 230px;
+  height: 75%;
+  width: 50%;
+  border-radius: 2%;
 }
 
 #cf .bottom {
@@ -368,6 +370,8 @@ div.lcm.floater {
   transform: translateY(-100%) scale(0.1);
   transition: transform 0.6s,
     opacity 0.5s;
+  left: 112px;
+  top: 20%;
 }
 
 #cf:hover .bottom {
@@ -378,8 +382,11 @@ div.lcm.floater {
 #cf .top {
   opacity: 1;
   transform: translateY(0);
-  transition: transform 0.5s,
+  transition: transform 0.6s,
     opacity 0.5s;
+  left: 112px;
+  border-radius: 2%;
+  top: 20%;
 }
 
 #cf:hover .top {
