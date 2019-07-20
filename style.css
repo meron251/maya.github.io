@@ -193,8 +193,8 @@ img {
 }
 
 img-logo {
-  width: 50%;
-  height: auto;
+  width: 20%;
+  height: 20%;
 }
 
 footer {
@@ -258,26 +258,41 @@ div.lcm.floater {
 #first {
   animation: swipe 2s;
   top: 75px;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  margin-top: 10px;
 }
 
 #second {
   animation: swipe 2s;
   top: 95px;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  margin-top: 20px;
 }
 
 #third {
   animation: swipe 2s;
   top: 115px;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  margin-top: 30px;
 }
 
 #fourth {
   animation: swipe 2s;
   top: 135px;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+  margin-top: 40px;
 }
 
 #fifth {
   animation: swipe 2s;
   top: 155px;
+  animation-delay: 4s;
+  animation-fill-mode: both;
+  margin-top: 50px;
 }
 
 #link {
@@ -295,12 +310,21 @@ div.lcm.floater {
   visibility: hidden;
 }
 
+.w1 {
+  padding-left: 60px;
+}
+
+.w1:hover {
+  color: yellow;
+  transition: 0.4s;
+}
+
 .w2 {
-  padding-left: 30px;
+  padding-left: 50px;
 }
 
 .w2:hover {
-  color: white;
+  color: yellow;
   transition: 0.4s;
 }
 
@@ -309,30 +333,30 @@ div.lcm.floater {
 }
 
 .w3:hover {
-  color: white;
+  color: yellow;
   transition: 0.4s;
 }
 
 .w4 {
-  padding-left: 50px;
+  padding-left: 30px;
 }
 
 .w4:hover {
-  color: white;
+  color: yellow;
   transition: 0.4s;
 }
 
 .w5 {
-  padding-left: 90px;
+  padding-left: 20px;
 }
 
 .w5:hover {
-  color: white;
+  color: yellow;
   transition: 0.4s;
 }
 
 .w6 {
-  padding-left: 50px;
+  padding-left: 10px;
 }
 
 .w6:hover {
@@ -401,12 +425,19 @@ div.lcm.floater {
   border: none;
 }
 
+.allswipe:hover {
+  color: yellow;
+  transition: .4s;
+}
+
 @keyframes swipe {
   from {
+    opacity: 0;
     left: -100px;
   }
 
   to {
+    opacity: 1;
     left: 90px;
   }
 }
@@ -419,7 +450,7 @@ a {
   text-decoration: none;
   color: white;
   transition style: 10s;
-  spacing:
+  spacing: 2px;
 }
 
 #icon {
